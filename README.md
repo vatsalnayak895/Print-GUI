@@ -13,19 +13,3 @@ The output file generated was then moved from local machine to the print server 
 GUI was tested on various usecases that were discussed during the requirement gathering phase. The employees were given the GUI to use and asked to review it according to their expectation and required changes were made.
 ## Production Phase:
 Python was installed on the server and all the required packages were installed on the server. The GUI was implemented on the server and a shortcut of the triggering bat file was moved to the Desktop of each user instance so that the useres can access the GUI from their local machines for printing the labels from their end.
-
-
-# Code:
-
-
-import shutil
-import sys
-from PyQt5.QtWidgets import * #QApplication, QWidget, QInputDialog, QLineEdit, QLabel , QPushButton, QPlainTextEdit, QTextEdit 
-from PyQt5.QtGui import *
-from PyQt5 import QtWidgets
-from PyQt5 import QtGui
-from PyQt5 import QtCore
-import datetime
-import os
-
-
